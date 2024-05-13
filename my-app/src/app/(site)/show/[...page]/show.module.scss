@@ -1,10 +1,12 @@
 .dataview{
 display: grid;
-grid-template-columns: repeat(3, 1fr);
+// grid-template-columns: repeat(3, 1fr);
+grid-template-columns: 1fr 1fr 2fr;
 // grid-template-rows: 100px  auto;
 // justify-items: center;
 border-top: 1px solid black;
 border-right: 1px solid black;
+margin-bottom: 10px;
 
 }
 .dataview > div{

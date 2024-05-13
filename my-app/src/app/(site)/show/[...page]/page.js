@@ -53,6 +53,7 @@ export default async  function Page({params: {page : [id, sortType]}}){
                 })
             }
         </div>
+        
     <PaginationComponent page={parseInt(id)} count = {parseInt(count)} sortType = {sortType}
      ></PaginationComponent>
 
