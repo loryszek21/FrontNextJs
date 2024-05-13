@@ -1,0 +1,17 @@
+.dataview{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+// grid-template-rows: 100px  auto;
+// justify-items: center;
+border-top: 1px solid black;
+border-right: 1px solid black;
+
+}
+.dataview > div{
+    padding: 8px 4px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.header{
+    font-weight: bolder;
+}

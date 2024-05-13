@@ -1,0 +1,33 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.17",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "crypto-js": "^4.2.0",
+    "framer-motion": "^11.1.9",
+    "lucide-react": "^0.378.0",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-paginate": "^8.2.0",
+    "sass": "^1.77.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.11",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}
